@@ -90,3 +90,16 @@ while erro < 6:
 	os.system("clear")
 	if espaço == palavra:
 		break
+		
+desenho(erro)
+for i in range (0, tamanho):
+	print(palavra[i], end=" ")
+print("")
+print("")
+print("não tem: " + " / ".join(str(num) for num in descarte))
+print("")
+
+if erro < 6:
+	print("VOCÊ GANHOU :D")
+else:
+	print("VOCÊ PERDEU :P")
