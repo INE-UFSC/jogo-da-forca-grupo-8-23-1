@@ -1,3 +1,63 @@
+import os
+
+def desenho(erro):
+    if erro == 0:
+        print("________  ")
+        print("!      |  ")
+        print("!         ")
+        print("!         ")
+        print("!         ")
+        print("!         ")
+        print("!         ")
+    elif erro == 1:
+        print("________  ")
+        print("!      |  ")
+        print("!      0  ")
+        print("!         ")
+        print("!         ")
+        print("!         ")
+        print("!         ")
+    elif erro == 2:
+        print("________  ")
+        print("!      |  ")
+        print("!      0  ")
+        print("!      |  ")
+        print("!      |  ")
+        print("!         ")
+        print("!         ")
+    elif erro == 3:
+        print("________  ")
+        print("!      |  ")
+        print("!      0  ")
+        print("!     /|  ")
+        print("!      |  ")
+        print("!         ")
+        print("!         ")
+    elif erro == 4:
+        print("________  ")
+        print("!      |  ")
+        print("!      0  ")
+        print("!     /|\ ")
+        print("!      |  ")
+        print("!         ")
+        print("!         ")
+    elif erro == 5:
+        print("________  ")
+        print("!      |  ")
+        print("!      0  ")
+        print("!     /|\ ")
+        print("!      |  ")
+        print("!     /   ")
+        print("!         ")
+    elif erro == 6:
+        print("________  ")
+        print("!      |  ")
+        print("!      0  ")
+        print("!     /|\ ")
+        print("!      |  ")
+        print("!     / \ ")
+        print("!         ")
+
 while erro < 6:
 	desenho(erro)
 	for i in range (0, tamanho):
