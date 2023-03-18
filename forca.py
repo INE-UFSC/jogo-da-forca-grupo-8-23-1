@@ -58,6 +58,16 @@ def desenho(erro):
         print("!     / \ ")
         print("!         ")
 
+erro = 6
+desenho(erro)
+print("insira um palavra:")
+palavra = list(input())
+os.system("clear")
+descarte = []
+tamanho = len(palavra)
+espaço = ["_ "] * tamanho
+erro = 0
+
 while erro < 6:
 	desenho(erro)
 	for i in range (0, tamanho):
